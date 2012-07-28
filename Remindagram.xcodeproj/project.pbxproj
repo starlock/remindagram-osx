@@ -49,6 +49,8 @@
 		BA90C81F15C4355F00AB0973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA90C82115C4355F00AB0973 /* RemindagramTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemindagramTests.h; sourceTree = "<group>"; };
 		BA90C82215C4355F00AB0973 /* RemindagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindagramTests.m; sourceTree = "<group>"; };
+		BA90C83B15C4381100AB0973 /* Remindagram copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Remindagram copy-Info.plist"; path = "/Users/panda/Code/Remindagram/Remindagram copy-Info.plist"; sourceTree = "<absolute>"; };
+		BA90C84215C4410400AB0973 /* RGContants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGContants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				BA90C81B15C4355F00AB0973 /* RemindagramTests */,
 				BA90C7F715C4355E00AB0973 /* Frameworks */,
 				BA90C7F515C4355E00AB0973 /* Products */,
+				BA90C83B15C4381100AB0973 /* Remindagram copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,9 +117,10 @@
 		BA90C7FE15C4355E00AB0973 /* Remindagram */ = {
 			isa = PBXGroup;
 			children = (
+				BA90C84215C4410400AB0973 /* RGContants.h */,
 				BA90C80A15C4355E00AB0973 /* RGAppDelegate.h */,
 				BA90C80B15C4355E00AB0973 /* RGAppDelegate.m */,
-				BA90C80D15C4355E00AB0973 /* MainMenu.xib */,
+				BA90C84015C43FEE00AB0973 /* UI */,
 				BA90C7FF15C4355E00AB0973 /* Supporting Files */,
 			);
 			path = Remindagram;
@@ -125,6 +129,7 @@
 		BA90C7FF15C4355E00AB0973 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA90C84115C4402D00AB0973 /* XIB */,
 				BA90C80015C4355E00AB0973 /* Remindagram-Info.plist */,
 				BA90C80115C4355E00AB0973 /* InfoPlist.strings */,
 				BA90C80415C4355E00AB0973 /* main.m */,
@@ -151,6 +156,21 @@
 				BA90C81E15C4355F00AB0973 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA90C84015C43FEE00AB0973 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BA90C84115C4402D00AB0973 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C80D15C4355E00AB0973 /* MainMenu.xib */,
+			);
+			name = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
