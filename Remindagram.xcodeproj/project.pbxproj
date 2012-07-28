@@ -18,6 +18,8 @@
 		BA90C82015C4355F00AB0973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA90C81E15C4355F00AB0973 /* InfoPlist.strings */; };
 		BA90C82315C4355F00AB0973 /* RemindagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C82215C4355F00AB0973 /* RemindagramTests.m */; };
 		BA90C84B15C445C400AB0973 /* RGTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C84A15C445C400AB0973 /* RGTaskView.m */; };
+		BA90C84F15C4560400AB0973 /* RGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C84E15C4560400AB0973 /* RGTask.m */; };
+		BA90C85215C4591300AB0973 /* icon-add-task.png in Resources */ = {isa = PBXBuildFile; fileRef = BA90C85115C4591300AB0973 /* icon-add-task.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		BA90C84215C4410400AB0973 /* RGContants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGContants.h; sourceTree = "<group>"; };
 		BA90C84915C445C400AB0973 /* RGTaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGTaskView.h; sourceTree = "<group>"; };
 		BA90C84A15C445C400AB0973 /* RGTaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGTaskView.m; sourceTree = "<group>"; };
+		BA90C84D15C4560400AB0973 /* RGTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGTask.h; sourceTree = "<group>"; };
+		BA90C84E15C4560400AB0973 /* RGTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGTask.m; sourceTree = "<group>"; };
+		BA90C85115C4591300AB0973 /* icon-add-task.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-add-task.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +128,7 @@
 				BA90C84215C4410400AB0973 /* RGContants.h */,
 				BA90C80A15C4355E00AB0973 /* RGAppDelegate.h */,
 				BA90C80B15C4355E00AB0973 /* RGAppDelegate.m */,
+				BA90C84C15C455F300AB0973 /* Model */,
 				BA90C84015C43FEE00AB0973 /* UI */,
 				BA90C7FF15C4355E00AB0973 /* Supporting Files */,
 			);
@@ -132,6 +138,7 @@
 		BA90C7FF15C4355E00AB0973 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA90C85015C458F700AB0973 /* Images */,
 				BA90C84115C4402D00AB0973 /* XIB */,
 				BA90C80015C4355E00AB0973 /* Remindagram-Info.plist */,
 				BA90C80115C4355E00AB0973 /* InfoPlist.strings */,
@@ -176,6 +183,23 @@
 				BA90C80D15C4355E00AB0973 /* MainMenu.xib */,
 			);
 			name = XIB;
+			sourceTree = "<group>";
+		};
+		BA90C84C15C455F300AB0973 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C84D15C4560400AB0973 /* RGTask.h */,
+				BA90C84E15C4560400AB0973 /* RGTask.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BA90C85015C458F700AB0973 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C85115C4591300AB0973 /* icon-add-task.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +277,7 @@
 				BA90C80315C4355E00AB0973 /* InfoPlist.strings in Resources */,
 				BA90C80915C4355E00AB0973 /* Credits.rtf in Resources */,
 				BA90C80F15C4355E00AB0973 /* MainMenu.xib in Resources */,
+				BA90C85215C4591300AB0973 /* icon-add-task.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +315,7 @@
 				BA90C80515C4355E00AB0973 /* main.m in Sources */,
 				BA90C80C15C4355E00AB0973 /* RGAppDelegate.m in Sources */,
 				BA90C84B15C445C400AB0973 /* RGTaskView.m in Sources */,
+				BA90C84F15C4560400AB0973 /* RGTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

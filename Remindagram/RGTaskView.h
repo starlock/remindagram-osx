@@ -7,7 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "RGContants.h"
 
 @interface RGTaskView : NSView
+
+
+// Model communication
+- (BOOL)hasTask;
+
+// Draw operations
+- (void)drawRectWithTask:(NSRect)dirtyRect;
+- (void)drawRectWithoutTask:(NSRect)dirtyRect;
 
 @end

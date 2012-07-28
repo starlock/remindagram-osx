@@ -10,7 +10,6 @@
 
 @implementation RGAppDelegate
 
-
 - (void)awakeFromNib
 {
     
@@ -19,20 +18,20 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
-    [self setWindowAppearance];
+    [self initWindowAppearance];
 }
 
 #pragma mark -
 #pragma mark UI
 #pragma mark -
 
-- (void)setWindowAppearance
+- (void)initWindowAppearance
 {
     // Set custom background color to the main window
-    [window setBackgroundColor:[NSColor colorWithSRGBRed:kWindowBackgroundColorRed
-                                                   green:kWindowBackgroundColorGreen
-                                                    blue:kWindowBackgroundColorBlue
-                                                   alpha:1.0]];
+    [_window setBackgroundColor:[NSColor colorWithSRGBRed:kWindowBackgroundColorRed
+                                                    green:kWindowBackgroundColorGreen
+                                                     blue:kWindowBackgroundColorBlue
+                                                    alpha:1.0]];
 }
 
 
