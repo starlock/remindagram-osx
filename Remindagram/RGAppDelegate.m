@@ -13,12 +13,13 @@
 
 - (void)awakeFromNib
 {
-    [self setWindowAppearance];
+    
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    [self setWindowAppearance];
 }
 
 #pragma mark -
@@ -28,10 +29,10 @@
 - (void)setWindowAppearance
 {
     // Set custom background color to the main window
-    [_window setBackgroundColor:[NSColor colorWithSRGBRed:kWindowBackgroundColorRed
-                                                    green:kWindowBackgroundColorGreen
-                                                     blue:kWindowBackgroundColorBlue
-                                                    alpha:1.0]];
+    [window setBackgroundColor:[NSColor colorWithSRGBRed:kWindowBackgroundColorRed
+                                                   green:kWindowBackgroundColorGreen
+                                                    blue:kWindowBackgroundColorBlue
+                                                   alpha:1.0]];
 }
 
 

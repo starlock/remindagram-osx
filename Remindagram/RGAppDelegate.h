@@ -10,8 +10,9 @@
 #import "RGContants.h"
 
 @interface RGAppDelegate : NSObject <NSApplicationDelegate>
-
-@property (assign) IBOutlet NSWindow *window;
+{
+    NSWindow IBOutlet *window;
+}
 
 - (void)setWindowAppearance;
 

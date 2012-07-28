@@ -17,6 +17,7 @@
 		BA90C81815C4355F00AB0973 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA90C7F815C4355E00AB0973 /* Cocoa.framework */; };
 		BA90C82015C4355F00AB0973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA90C81E15C4355F00AB0973 /* InfoPlist.strings */; };
 		BA90C82315C4355F00AB0973 /* RemindagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C82215C4355F00AB0973 /* RemindagramTests.m */; };
+		BA90C84B15C445C400AB0973 /* RGTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C84A15C445C400AB0973 /* RGTaskView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BA90C82215C4355F00AB0973 /* RemindagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindagramTests.m; sourceTree = "<group>"; };
 		BA90C83B15C4381100AB0973 /* Remindagram copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Remindagram copy-Info.plist"; path = "/Users/panda/Code/Remindagram/Remindagram copy-Info.plist"; sourceTree = "<absolute>"; };
 		BA90C84215C4410400AB0973 /* RGContants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGContants.h; sourceTree = "<group>"; };
+		BA90C84915C445C400AB0973 /* RGTaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGTaskView.h; sourceTree = "<group>"; };
+		BA90C84A15C445C400AB0973 /* RGTaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGTaskView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 		BA90C84015C43FEE00AB0973 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BA90C84915C445C400AB0973 /* RGTaskView.h */,
+				BA90C84A15C445C400AB0973 /* RGTaskView.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			files = (
 				BA90C80515C4355E00AB0973 /* main.m in Sources */,
 				BA90C80C15C4355E00AB0973 /* RGAppDelegate.m in Sources */,
+				BA90C84B15C445C400AB0973 /* RGTaskView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
