@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA90C7F915C4355E00AB0973 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA90C7F815C4355E00AB0973 /* Cocoa.framework */; };
+		BA90C80315C4355E00AB0973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA90C80115C4355E00AB0973 /* InfoPlist.strings */; };
+		BA90C80515C4355E00AB0973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C80415C4355E00AB0973 /* main.m */; };
+		BA90C80915C4355E00AB0973 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BA90C80715C4355E00AB0973 /* Credits.rtf */; };
+		BA90C80C15C4355E00AB0973 /* RGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C80B15C4355E00AB0973 /* RGAppDelegate.m */; };
+		BA90C80F15C4355E00AB0973 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA90C80D15C4355E00AB0973 /* MainMenu.xib */; };
+		BA90C81715C4355F00AB0973 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA90C81615C4355F00AB0973 /* SenTestingKit.framework */; };
+		BA90C81815C4355F00AB0973 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA90C7F815C4355E00AB0973 /* Cocoa.framework */; };
+		BA90C82015C4355F00AB0973 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA90C81E15C4355F00AB0973 /* InfoPlist.strings */; };
+		BA90C82315C4355F00AB0973 /* RemindagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA90C82215C4355F00AB0973 /* RemindagramTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA90C81915C4355F00AB0973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA90C7EB15C4355E00AB0973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA90C7F315C4355E00AB0973;
+			remoteInfo = Remindagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA90C7F415C4355E00AB0973 /* Remindagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remindagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90C7F815C4355E00AB0973 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BA90C7FB15C4355E00AB0973 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BA90C7FC15C4355E00AB0973 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BA90C7FD15C4355E00AB0973 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA90C80015C4355E00AB0973 /* Remindagram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remindagram-Info.plist"; sourceTree = "<group>"; };
+		BA90C80215C4355E00AB0973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA90C80415C4355E00AB0973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA90C80615C4355E00AB0973 /* Remindagram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Remindagram-Prefix.pch"; sourceTree = "<group>"; };
+		BA90C80815C4355E00AB0973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BA90C80A15C4355E00AB0973 /* RGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGAppDelegate.h; sourceTree = "<group>"; };
+		BA90C80B15C4355E00AB0973 /* RGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGAppDelegate.m; sourceTree = "<group>"; };
+		BA90C80E15C4355E00AB0973 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA90C81515C4355F00AB0973 /* RemindagramTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemindagramTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA90C81615C4355F00AB0973 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA90C81D15C4355F00AB0973 /* RemindagramTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemindagramTests-Info.plist"; sourceTree = "<group>"; };
+		BA90C81F15C4355F00AB0973 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA90C82115C4355F00AB0973 /* RemindagramTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemindagramTests.h; sourceTree = "<group>"; };
+		BA90C82215C4355F00AB0973 /* RemindagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindagramTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA90C7F115C4355E00AB0973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C7F915C4355E00AB0973 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90C81115C4355F00AB0973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C81715C4355F00AB0973 /* SenTestingKit.framework in Frameworks */,
+				BA90C81815C4355F00AB0973 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA90C7E915C4355E00AB0973 = {
+			isa = PBXGroup;
+			children = (
+				BA90C7FE15C4355E00AB0973 /* Remindagram */,
+				BA90C81B15C4355F00AB0973 /* RemindagramTests */,
+				BA90C7F715C4355E00AB0973 /* Frameworks */,
+				BA90C7F515C4355E00AB0973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA90C7F515C4355E00AB0973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C7F415C4355E00AB0973 /* Remindagram.app */,
+				BA90C81515C4355F00AB0973 /* RemindagramTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA90C7F715C4355E00AB0973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C7F815C4355E00AB0973 /* Cocoa.framework */,
+				BA90C81615C4355F00AB0973 /* SenTestingKit.framework */,
+				BA90C7FA15C4355E00AB0973 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA90C7FA15C4355E00AB0973 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C7FB15C4355E00AB0973 /* AppKit.framework */,
+				BA90C7FC15C4355E00AB0973 /* CoreData.framework */,
+				BA90C7FD15C4355E00AB0973 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BA90C7FE15C4355E00AB0973 /* Remindagram */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C80A15C4355E00AB0973 /* RGAppDelegate.h */,
+				BA90C80B15C4355E00AB0973 /* RGAppDelegate.m */,
+				BA90C80D15C4355E00AB0973 /* MainMenu.xib */,
+				BA90C7FF15C4355E00AB0973 /* Supporting Files */,
+			);
+			path = Remindagram;
+			sourceTree = "<group>";
+		};
+		BA90C7FF15C4355E00AB0973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C80015C4355E00AB0973 /* Remindagram-Info.plist */,
+				BA90C80115C4355E00AB0973 /* InfoPlist.strings */,
+				BA90C80415C4355E00AB0973 /* main.m */,
+				BA90C80615C4355E00AB0973 /* Remindagram-Prefix.pch */,
+				BA90C80715C4355E00AB0973 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA90C81B15C4355F00AB0973 /* RemindagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C82115C4355F00AB0973 /* RemindagramTests.h */,
+				BA90C82215C4355F00AB0973 /* RemindagramTests.m */,
+				BA90C81C15C4355F00AB0973 /* Supporting Files */,
+			);
+			path = RemindagramTests;
+			sourceTree = "<group>";
+		};
+		BA90C81C15C4355F00AB0973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA90C81D15C4355F00AB0973 /* RemindagramTests-Info.plist */,
+				BA90C81E15C4355F00AB0973 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA90C7F315C4355E00AB0973 /* Remindagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90C82615C4355F00AB0973 /* Build configuration list for PBXNativeTarget "Remindagram" */;
+			buildPhases = (
+				BA90C7F015C4355E00AB0973 /* Sources */,
+				BA90C7F115C4355E00AB0973 /* Frameworks */,
+				BA90C7F215C4355E00AB0973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Remindagram;
+			productName = Remindagram;
+			productReference = BA90C7F415C4355E00AB0973 /* Remindagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA90C81415C4355F00AB0973 /* RemindagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA90C82915C4355F00AB0973 /* Build configuration list for PBXNativeTarget "RemindagramTests" */;
+			buildPhases = (
+				BA90C81015C4355F00AB0973 /* Sources */,
+				BA90C81115C4355F00AB0973 /* Frameworks */,
+				BA90C81215C4355F00AB0973 /* Resources */,
+				BA90C81315C4355F00AB0973 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA90C81A15C4355F00AB0973 /* PBXTargetDependency */,
+			);
+			name = RemindagramTests;
+			productName = RemindagramTests;
+			productReference = BA90C81515C4355F00AB0973 /* RemindagramTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA90C7EB15C4355E00AB0973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RG;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Starlock;
+			};
+			buildConfigurationList = BA90C7EE15C4355E00AB0973 /* Build configuration list for PBXProject "Remindagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA90C7E915C4355E00AB0973;
+			productRefGroup = BA90C7F515C4355E00AB0973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA90C7F315C4355E00AB0973 /* Remindagram */,
+				BA90C81415C4355F00AB0973 /* RemindagramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA90C7F215C4355E00AB0973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C80315C4355E00AB0973 /* InfoPlist.strings in Resources */,
+				BA90C80915C4355E00AB0973 /* Credits.rtf in Resources */,
+				BA90C80F15C4355E00AB0973 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90C81215C4355F00AB0973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C82015C4355F00AB0973 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA90C81315C4355F00AB0973 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA90C7F015C4355E00AB0973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C80515C4355E00AB0973 /* main.m in Sources */,
+				BA90C80C15C4355E00AB0973 /* RGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA90C81015C4355F00AB0973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA90C82315C4355F00AB0973 /* RemindagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA90C81A15C4355F00AB0973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA90C7F315C4355E00AB0973 /* Remindagram */;
+			targetProxy = BA90C81915C4355F00AB0973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA90C80115C4355E00AB0973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90C80215C4355E00AB0973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA90C80715C4355E00AB0973 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90C80815C4355E00AB0973 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BA90C80D15C4355E00AB0973 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90C80E15C4355E00AB0973 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BA90C81E15C4355F00AB0973 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA90C81F15C4355F00AB0973 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA90C82415C4355F00AB0973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA90C82515C4355F00AB0973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA90C82715C4355F00AB0973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remindagram/Remindagram-Prefix.pch";
+				INFOPLIST_FILE = "Remindagram/Remindagram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA90C82815C4355F00AB0973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remindagram/Remindagram-Prefix.pch";
+				INFOPLIST_FILE = "Remindagram/Remindagram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA90C82A15C4355F00AB0973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remindagram.app/Contents/MacOS/Remindagram";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remindagram/Remindagram-Prefix.pch";
+				INFOPLIST_FILE = "RemindagramTests/RemindagramTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BA90C82B15C4355F00AB0973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remindagram.app/Contents/MacOS/Remindagram";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remindagram/Remindagram-Prefix.pch";
+				INFOPLIST_FILE = "RemindagramTests/RemindagramTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA90C7EE15C4355E00AB0973 /* Build configuration list for PBXProject "Remindagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90C82415C4355F00AB0973 /* Debug */,
+				BA90C82515C4355F00AB0973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA90C82615C4355F00AB0973 /* Build configuration list for PBXNativeTarget "Remindagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90C82715C4355F00AB0973 /* Debug */,
+				BA90C82815C4355F00AB0973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA90C82915C4355F00AB0973 /* Build configuration list for PBXNativeTarget "RemindagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA90C82A15C4355F00AB0973 /* Debug */,
+				BA90C82B15C4355F00AB0973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA90C7EB15C4355E00AB0973 /* Project object */;
+}
